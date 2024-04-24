@@ -1,0 +1,122 @@
+html {
+  background: url(images/math.jpg);
+}
+
+body {
+  background: rgba(255, 255, 255, 0.8);
+  width: 1000px;
+  margin: 100px auto 50px;
+  padding: 0px 20px 20px;
+  border: 10px solid green;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  color: darkolivegreen;
+  font-family: "Permanent Marker", cursive;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Silkscreen", sans-serif;
+  color: dimgray;
+}
+
+hr {
+  border: 5px solid maroon;
+}
+
+button {
+  width: 400px;
+  margin: 0px 40px;
+  font-size: 25px;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  transition: background 1s, border 1s, color 1s;
+}
+
+button:hover {
+  transition: background 1s, border 1s, color 1s;
+}
+
+#default-btn {
+  background: #93969f;
+  border: 3px solid #787c87;
+  font-family: "Sources Code Pro", monospace;
+  color: #37332d;
+}
+
+#default-btn:hover {
+  background: #6b78a1;
+  border: 3px solid #546085;
+  color: black;
+}
+
+#pyth-btn {
+  background: #b0aa44;
+  border: 3px solid #8b8736;
+  font-family: "Domine", serif;
+  font-variant: small-caps;
+  color: #287f93;
+}
+
+#pyth-btn:hover {
+  background: #8b8736;
+  border: 3px solid #b0aa44;
+  color: #93287f;
+}
+
+#temp-btn {
+  background: #ce1b21;
+  border: 3px solid #a11519;
+  font-family: "Diplomata", serif;
+  color: #e75351;
+}
+
+#temp-btn:hover {
+  background: #30d0f4;
+  border: 3px solid #0dbde5;
+  color: white;
+}
+
+#trape-btn {
+  background: #44bb68;
+  border: 3px solid #37d553;
+  font-family: "Tapestry", serif;
+  font-variant: small-caps;
+  color: #1b802d;
+}
+
+#trape-btn:hover {
+  background: #b20376;
+  border: 3px solid #e70498;
+  color: #800255;
+}
+
+#colour-btn {
+  background: #c90100;
+  border: 3px solid #0100c9;
+  font-family: "Jersey 20", sans-serif;
+  color: #00c901;
+}
+
+#colour-btn:hover {
+  background: #00d884;
+  border: 3px solid #8400d8;
+  color: #d88400;
+}
+
+#physics-btn {
+  background: #7700ff;
+  font-family: "Acme", sans-serif;
+  border: 3px solid black;
+}
+
+#physics-btn:hover {
+  background: black;
+  border: 3px solid #ff5400;
+  color: #ff5400;
+}
